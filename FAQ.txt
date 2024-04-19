@@ -1,0 +1,19 @@
+
+Q) pom.xml - cvc-elt.1.a: Cannot find the declaration of element 'project'.
+
+	>>>  instead of "https:", should be "http:"
+	     https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+Q) Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+ 
+	>> remove spaces around '=' in application.properties
+ 
+Q) HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+
+
+Q) @XmlRootElement() not recognized
+
+	>> https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
+	   select a version and copy Maven contents and paste into porm.xml
+
+Q) 
