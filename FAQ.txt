@@ -10,10 +10,11 @@ Q) Failed to initialize JPA EntityManagerFactory: Unable to create requested ser
  
 Q) HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 
+	>> just a warning, not a problem
 
 Q) @XmlRootElement() not recognized
 
 	>> https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
 	   select a version and copy Maven contents and paste into porm.xml
 
-Q) 
+
